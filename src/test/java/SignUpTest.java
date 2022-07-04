@@ -11,7 +11,7 @@ import java.util.Set;
 public class SignUpTest {
 
     @Test
-    public void fiveDigitZipCodeTestTestTest() {
+    public void fiveDigitZipCodeTest() {
         // Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
         WebDriver driver = new ChromeDriver();
