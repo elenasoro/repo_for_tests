@@ -19,6 +19,7 @@ public class SignUpTest {
         // Open url of zipcode page
         driver.get("https://sharelane.com/cgi-bin/register.py");
 
+
         // Input 5 digits into input field
         driver.findElement(By.name("zip_code")).sendKeys("12345");
 
